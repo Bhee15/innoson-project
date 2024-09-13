@@ -8,16 +8,16 @@ import tiresImg from "../assets/Tyres-img.png";
 const Main = () => {
   return (
     <>
-      <section className="container section-3">
-        <section className="container row ">
-          <div>
-            <p className="intro container">What We Do</p>
+      <section className="d-flex justify-content-center sec-3">
+        <section className="row container">
+          <div className="intro-div">
+            <p className="container intro">What We Do</p>
           </div>
-          <div className="d-flex gap-5">
-            <div className="img-1">
-              <img src={carImg} alt="" />
-            </div>
-            <div className="text pt-5">
+          <div className="d-flex gap-5 div-1 container">
+             <div>
+              <img src={carImg} alt="car-img" className="img-fluid"/>
+             </div>
+             <div className="text pt-5">
               <h4>Automobile Manufacturing</h4>
               <p className="container">
                 Innoson Vehicle Manufacturing [IVM] introduces automotive
@@ -31,10 +31,10 @@ const Main = () => {
               <button>Learn more</button>
             </div>
           </div>
-          <div className="d-flex gap-5 mt-5">
+          <div className="d-flex gap-5 div-2">
             <div className="text pt-5">
               <h4>Plastic Manufacturing</h4>
-              <p>
+              <p className="container">
                 Innoson Technical & Industrial Co. Ltd manufactures high quality
                 husehold and industrial plastics, health & safety accessories,
                 storage containers, fixtures & fittings, electrical components &
@@ -44,17 +44,17 @@ const Main = () => {
               </p>
               <button>Learn more</button>
             </div>
-            <div className="img-2">
-              <img src={plasticImg} alt=""/>
+            <div>
+              <img src={plasticImg} alt="plastic-img" className="img-fluid"/>
             </div>
           </div>
-          <div className="d-flex gap-5 mt-5">
-            <div className="img-3">
-              <img src={cycleImg} alt="" />
+          <div className="d-flex gap-5 div-3">
+            <div>
+              <img src={cycleImg} alt="cycle-img" className="img-fluid"/>
             </div>
             <div className="text pt-5">
               <h4>Motorcycle Manufacturing</h4>
-              <p>
+              <p className="container">
                 Innoson Nigeria Limited Nnewi Manufactures motorcycles,
                 tricycles, spare parts and accessories. We pioneered the first
                 Made-in-Nigeria Motorcycle brand that sold for as low as
@@ -64,10 +64,10 @@ const Main = () => {
               <button>Learn more </button>
             </div>
           </div>
-          <div className="d-flex gap-5 mt-5">
+          <div className="d-flex gap-5 div-4">
             <div className="text pt-5">
               <h4>Tires & Tubes Manufacturing</h4>
-              <p>
+              <p className="container">
                 General Tyres & Tubes Co. Ltd Enugu, manufacturerers of high
                 quailty tyres & Tubes. The plant has a production capacity of
                 about 8,000 pieces of motorcycle tyres daily and 13,000 tubes
@@ -75,8 +75,8 @@ const Main = () => {
               </p>
               <button>Learn more</button>
             </div>
-            <div className="img-4">
-              <img src={tiresImg} alt="" />
+            <div>
+              <img src={tiresImg} alt="tires-img" className="img-fluid"/>
             </div>
           </div>
         </section>
