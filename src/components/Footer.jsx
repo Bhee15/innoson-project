@@ -12,7 +12,7 @@ const Footer = () => {
         </h3>
     </section>
     <div>
-    <img src={copyRight} alt="footer-img" className='img-fluid'/>
+    <img src={copyRight} alt="footer-img" className="footer-2"/>
     </div>
     </>
   )

@@ -33,7 +33,7 @@ const Navbar = () => {
 
           <Offcanvas show={show} onHide={handleClose} className="w-75">
             <Offcanvas.Header closeButton>
-            {/* <Offcanvas.Title>Innosan Group</Offcanvas.Title> */}
+            <Offcanvas.Title>Innosan Group</Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
         <ul className="list-unstyled">

@@ -17,3 +17,21 @@
    height: 300px;
    
 }
+.footer-2{
+    width: 100%;
+}
+
+@media(max-width:428px){
+    .sec-5{
+        height: 180px;
+    }
+    .footer-text{
+        width: 100%;
+    }
+    .footer-text{
+        font-size: 28px;
+        height: 100px;
+        padding-top: 10px;
+        line-height: 50px;
+    }
+}
